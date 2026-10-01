@@ -1,253 +1,313 @@
-<img src="https://i.ibb.co/RQ28H2p/banner.png" alt="banner"><h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> SAAN GOATBOT V3 — UNHINGED</h1><p align="center">
-	<em>A savage, feature-rich Facebook Messenger bot framework built for chaos, automation and pure Saan energy.</em>
+╔══════════════════════════════════════╗
+
+𝐒𝐀𝐀𝐍 𝐆𝐎𝐀𝐓𝐁𝐎𝐓 𝐕𝟑
+
+𝑼𝑵𝑯𝑰𝑵𝑮𝑬𝑫 • 𝑬𝑳𝑰𝑻𝑬
+
+╚══════════════════════════════════════╝
+
+<p align="center">
+  <img src="https://i.ibb.co/RQ28H2p/banner.png" alt="SAAN GOATBOT V3 Banner" width="100%">
 </p><p align="center">
-	<a href="https://nodejs.org/dist/v22.0.0">
-		<img src="https://img.shields.io/badge/Node.js-22.x-brightgreen.svg?style=flat-square" alt="Node.js 22.x">
-	</a>
-	<img alt="license" src="https://img.shields.io/badge/license-MIT-green?style=flat-square">
-	<img alt="platform" src="https://img.shields.io/badge/platform-Node.js%20%7C%20Docker-informational?style=flat-square">
+  <b>𝐀𝐞𝐬𝐭𝐡𝐞𝐭𝐢𝐜 𝐜𝐨𝐝𝐞 • 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐬𝐲𝐬𝐭𝐞𝐦 • 𝐙𝐞𝐫𝐨 𝐜𝐡𝐢𝐥𝐥</b>
 </p><p align="center">
-	<sub>
-		<b>Built, modified & maintained by 𝐒𝐈𝐀𝐌 𝐀𝐇𝐌𝐄𝐃 𝐒𝐀𝐀𝐍</b><br>
-		<b>𝗦𝗔𝗔𝗡 𝗘𝗫𝗛𝗔𝗨𝗦𝗧𝗘𝗗</b> • Noisy code. Zero chill. 🥀
-	</sub>
+  <img src="https://img.shields.io/badge/SAAN-GOATBOT%20V3-black?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/Node.js-22.x-black?style=for-the-badge&logo=node.js">
+  <img src="https://img.shields.io/badge/JavaScript-ES2022-black?style=for-the-badge&logo=javascript">
+  <img src="https://img.shields.io/badge/License-MIT-black?style=for-the-badge">
+</p><p align="center">
+  <i>Built for Messenger. Designed for chaos. Refined by SAAN.</i>
 </p>---
 
-🥀 ABOUT THIS BEAST
+🖤 𝐒𝐀𝐀𝐍 𝐄𝐗𝐇𝐀𝐔𝐒𝐓𝐄𝐃
 
-SAAN GOATBOT V3 — UNHINGED is a customised Messenger bot framework built for people who want more than a boring copy-paste bot.
+«Not another boring copy-paste bot.
 
-Commands, games, automation, media tools, economy systems and random chaos—all packed into one bot.
+A heavily customised Facebook Messenger automation framework focused on commands, games, economy, media tools, automation and a clean modular architecture.»
 
-«No fake flex. No unnecessary bullshit. Just code.»
+No unnecessary noise.
+No fake flex.
+Just a bot that actually goes hard.
 
 ---
 
-☠️ WHAT'S INSIDE
+⚡ 𝐖𝐇𝐀𝐓 𝐘𝐎𝐔 𝐆𝐄𝐓
 
-🔥 Core Features
+<table>
+<tr>
+<td width="50%">🧠 Core System
 
-- Facebook Messenger bot framework
-- Command & event system
+- Command handler
+- Event handler
+- Reply handler
+- Reaction handler
+- Message listener
 - Custom aliases
-- Role-based permissions
 - Command cooldowns
-- Thread-specific settings
-- User & thread management
-- Multi-language support
-- Web dashboard
-- MongoDB / SQLite support
-- Custom reactions
-- Media downloader
-- Economy system
-- Game commands
-- Custom bot responses
-- Automatic command loading
+- Role permissions
+- Thread management
+- User management
 
-🩸 SAAN CUSTOMS
+</td><td width="50%">🔥 Custom Systems
 
-This version contains custom modifications maintained under the Saan Exhausted branding.
-
-Including:
-
-- Savage custom responses
-- Custom economy commands
+- Economy commands
 - Casino / game systems
 - Media downloader
-- Custom cooldown systems
-- Custom usage limits
-- Custom command layouts
+- Custom responses
+- Usage limits
+- Custom cooldowns
+- Multi-language support
+- Dashboard support
+- Database integration
+- Modular command loading
+
+</td>
+</tr>
+</table>---
+
+🩸 𝐓𝐇𝐄 𝐒𝐀𝐀𝐍 𝐄𝐃𝐈𝐓𝐈𝐎𝐍
+
+This build carries the SAAN EXHAUSTED identity across the custom side of the project.
+
+✦ Customised
+
+- Premium command layouts
 - Custom author branding
+- Economy & game modifications
+- Custom limits
+- Custom cooldown systems
+- Savage-style responses
+- Media utilities
 - Random fixes & improvements
-- Extra bullshit removed from the experience
+- Cleaner command presentation
+- Extra unnecessary bullshit removed
+
+«Different codebase energy. Different experience.»
 
 ---
 
-🧨 REQUIREMENTS
+🛠️ 𝐒𝐓𝐀𝐂𝐊
+
+Component| Technology
+Runtime| Node.js 22.x
+Language| JavaScript
+Platform| Facebook Messenger
+Database| MongoDB / SQLite depending on configuration
+Package Manager| npm
+Deployment| VPS / Replit / Docker / compatible hosts
+
+---
+
+📦 𝐑𝐄𝐐𝐔𝐈𝐑𝐄𝐌𝐄𝐍𝐓𝐒
+
+Before running the bot, make sure you have:
 
 - Node.js 22.x
 - Git
-- Optional MongoDB
-- Basic JavaScript / Node.js knowledge
+- npm
 - Messenger account/session configuration
+- MongoDB if required by your setup
+- Basic Node.js knowledge
 
 ---
 
-⚡ INSTALLATION
+🚀 𝐈𝐍𝐒𝐓𝐀𝐋𝐋𝐀𝐓𝐈𝐎𝐍
 
-Clone the repo
+01 — Clone
 
-git clone https://github.com/Fineshyt-Saan/SAAN-GOATBOT-V3.git
-cd SAAN-GOATBOT-V3
+git clone https://github.com/Saan-Irl/Saan-Alt-GOAT-BOT-V3.git
+cd Saan-Alt-GOAT-BOT-V3
 
-Install dependencies
+02 — Install dependencies
 
 npm install
 
-Start the beast
+03 — Configure
+
+Edit the required configuration files according to your setup.
+
+04 — Start
 
 npm start
 
-If the bot asks for account/session information, provide the required configuration according to the project setup.
+---
+
+⚙️ 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐓𝐈𝐎𝐍
+
+Common configuration areas include:
+
+prefix
+language
+nickNameBot
+adminBot
+dashBoard
+noPrefix
+reactUnsend
+reactMirror
+optionsFca
+facebookAccount
+database
+
+Configuration structure may vary depending on the installed version and custom modules.
 
 ---
 
-⚙️ CONFIGURATION
+🔐 𝐃𝐎 𝐍𝐎𝐓 𝐋𝐄𝐀𝐊 𝐘𝐎𝐔𝐑 𝐂𝐑𝐄𝐃𝐒
 
-Main configuration is controlled through the project's configuration files.
+Keep these private:
 
-Setting| Purpose
-"prefix"| Command prefix
-"language"| Bot language
-"nickNameBot"| Bot display name
-"adminBot"| Bot administrator IDs
-"dashBoard"| Dashboard configuration
-"noPrefix"| Prefix-free command settings
-"reactUnsend"| Reaction-based message removal
-"reactMirror"| Reaction mirror system
-"optionsFca"| Messenger API options
-"facebookAccount"| Account/login configuration
+Facebook cookies
+AppState
+Access tokens
+Passwords
+MongoDB URI
+API keys
+Dashboard credentials
+Private configuration
 
-🔐 Keep this shit private
+«One careless leak can get your account/session cooked.»
 
-Never expose:
+Never commit sensitive credentials to a public repository.
 
-- Facebook cookies
-- App-state
-- Access tokens
-- Passwords
-- MongoDB URI
-- API keys
-- Dashboard secrets
-
-One leak = your account can get cooked.
+Use environment variables or another secure secret-management method whenever possible.
 
 ---
 
-🚀 RUN THE BOT
+🧬 𝐀𝐑𝐂𝐇𝐈𝐓𝐄𝐂𝐓𝐔𝐑𝐄
 
-Normal
+SAAN-GOATBOT-V3
+│
+├── bot/
+├── dashboard/
+├── database/
+├── func/
+├── languages/
+├── logger/
+│
+├── scripts/
+│   ├── cmds/
+│   └── events/
+│
+├── Goat.js
+├── index.js
+├── config.json
+├── configCommands.json
+├── package.json
+└── README.md
 
-npm start
-
-Development
-
-npm run dev
-
-Production
-
-npm run prod
-
-Use the scripts actually available inside "package.json".
+The exact structure can change depending on the current build.
 
 ---
 
-🧠 HOW THIS THING WORKS
+🧠 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐒𝐘𝐒𝐓𝐄𝐌
 
-The framework receives Messenger events and routes them through the bot's command/event system.
-
-"onStart"
-
-Runs when a command is triggered.
-
-"onChat"
-
-Handles normal incoming messages.
-
-"onFirstChat"
-
-Runs when a thread is encountered for the first time after startup.
-
-"onReaction"
-
-Handles registered message reactions.
-
-"onReply"
-
-Handles replies to registered bot messages.
-
-"onEvent"
-
-Handles Messenger system events.
-
-"handlerEvent"
-
-Loads and processes event commands from:
-
-scripts/events/
-
-Commands are normally located at:
+Commands are generally located inside:
 
 scripts/cmds/
 
+Events are generally located inside:
+
+scripts/events/
+
+A command can contain:
+
+config
+langs
+onStart
+onChat
+onReply
+onReaction
+onEvent
+
+depending on what the command needs.
+
 ---
 
-🛠️ MAKE YOUR OWN COMMAND
+🧪 𝐌𝐀𝐊𝐄 𝐘𝐎𝐔𝐑 𝐎𝐖𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃
 
 Example:
 
 module.exports = {
-	config: {
-		name: "hello",
-		version: "1.0",
-		author: "𝐒𝐈𝐀𝐌 𝐀𝐇𝐌𝐄𝐃 𝐒𝐀𝐀𝐍",
-		countDown: 5,
-		role: 0,
-		description: {
-			en: "say hello"
-		},
-		category: "fun",
-		guide: {
-			en: "{pn} <name>"
-		}
-	},
+  config: {
+    name: "hello",
+    version: "1.0",
+    author: "𝐒𝐈𝐀𝐌 𝐀𝐇𝐌𝐄𝐃 𝐒𝐀𝐀𝐍",
+    countDown: 5,
+    role: 0,
+    description: {
+      en: "Say hello"
+    },
+    category: "fun",
+    guide: {
+      en: "{pn}"
+    }
+  },
 
-	langs: {
-		en: {
-			reply: "Yo %1, what's good?"
-		}
-	},
+  langs: {
+    en: {
+      reply: "Yo %1, what's good?"
+    }
+  },
 
-	onStart: async function ({ args, message, getLang }) {
-		return message.reply(
-			getLang("reply", args[0] || "bro")
-		);
-	}
+  onStart: async function ({ args, message, getLang }) {
+    return message.reply(
+      getLang("reply", args[0] || "bro")
+    );
+  }
 };
 
-Author branding
+𝐀𝐮𝐭𝐡𝐨𝐫 𝐁𝐫𝐚𝐧𝐝𝐢𝐧𝐠
 
-Custom SAAN commands use:
+Custom SAAN commands:
 
 𝐒𝐈𝐀𝐌 𝐀𝐇𝐌𝐄𝐃 𝐒𝐀𝐀𝐍
 
-Third-party source credits should remain where applicable.
+Third-party attribution and license notices should remain where legally required.
 
 ---
 
-🌐 LANGUAGES
+🌐 𝐋𝐀𝐍𝐆𝐔𝐀𝐆𝐄𝐒
 
-Language files are generally located inside:
+Language resources may be located inside:
 
 languages/
 languages/cmds/
 languages/events/
 
-Available languages depend on the installed language files.
+Available languages depend on the language files included in the build.
 
 ---
 
-🧯 COMMON PROBLEMS
+🎮 𝐒𝐘𝐒𝐓𝐄𝐌𝐒
 
-Node version error
+╭────────────────────────────╮
+│       SAAN SYSTEMS         │
+├────────────────────────────┤
+│  ⚡ Commands               │
+│  🎮 Games                  │
+│  💰 Economy                │
+│  🎰 Casino                 │
+│  🎵 Media                  │
+│  🛠️ Utilities              │
+│  👑 Permissions            │
+│  🌐 Languages              │
+│  🧠 Automation             │
+│  📊 Dashboard              │
+╰────────────────────────────╯
+
+---
+
+🧯 𝐂𝐎𝐌𝐌𝐎𝐍 𝐏𝐑𝐎𝐁𝐋𝐄𝐌𝐒
+
+Node.js error
 
 Check:
 
-package.json
+node -v
 
-and your hosting platform's Node.js runtime.
+The intended runtime for this build is:
 
-For this project, Node.js 22.x is the intended runtime where supported.
+Node.js 22.x
 
 Dependency error
 
@@ -262,82 +322,80 @@ npm start
 
 Database error
 
-Check your MongoDB URI or SQLite configuration.
+Check:
 
-Login error
+- MongoDB URI
+- Database configuration
+- Network access
+- Required environment variables
 
-Verify that your session/account configuration is valid.
+Login / session error
 
-Do not randomly spam login attempts with broken credentials.
-
----
-
-📸 SCREENSHOTS
-
-Bot
-
-<details>
-	<summary>Bot Commands</summary>
-	<p>
-		<img src="YOUR_IMAGE_URL" width="399px">
-	</p>
-</details>
-
-Dashboard
-
-<details>
-	<summary>Dashboard</summary>
-	<p>
-		<img src="YOUR_IMAGE_URL" width="399px">
-	</p>
-</details>
+Verify your Messenger session/account configuration and avoid repeatedly attempting login with invalid credentials.
 
 ---
 
-👑 CREDITS
+🖼️ 𝐒𝐂𝐑𝐄𝐄𝐍𝐒𝐇𝐎𝐓𝐒
 
-SAAN EXHAUSTED
+<p align="center">
+  <i>Drop your bot screenshots here.</i>
+</p>screenshots/
+├── bot.png
+├── commands.png
+└── dashboard.png
+
+---
+
+👑 𝐁𝐑𝐀𝐍𝐃
+
+<p align="center">𝐒𝐀𝐀𝐍 𝐄𝐗𝐇𝐀𝐔𝐒𝐓𝐄𝐃
 
 𝐒𝐈𝐀𝐌 𝐀𝐇𝐌𝐄𝐃 𝐒𝐀𝐀𝐍
 
-Project branding:
+"SAAN-Irl"
 
-𝗦𝗔𝗔𝗡 𝗘𝗫𝗛𝗔𝗨𝗦𝗧𝗘𝗗
+</p>---
 
-Repository:
+🐐 𝐎𝐑𝐈𝐆𝐈𝐍 & 𝐀𝐓𝐓𝐑𝐈𝐁𝐔𝐓𝐈𝐎𝐍
 
-Fineshyt-Saan/SAAN-GOATBOT-V3
+This repository is a customised build based on the Goat Bot V2 ecosystem.
 
----
-
-🐐 ORIGINAL PROJECT
-
-This project is based on the Goat Bot V2 framework.
-
-Original upstream author:
+Original upstream attribution:
 
 NTKhang — Goat-Bot-V2
 
-Original/third-party attribution remains acknowledged where required.
+Third-party source code, copyright notices and applicable license requirements remain acknowledged where required.
+
+This repository does not claim ownership of third-party code.
 
 ---
 
-🖤 LICENSE
+📜 𝐋𝐈𝐂𝐄𝐍𝐒𝐄
 
-This repository contains code derived from third-party/open-source projects.
+This project may contain code derived from third-party/open-source projects.
 
-Respect the applicable licenses, copyright notices and attribution requirements of those projects and dependencies.
+Respect:
 
-Do not remove required third-party license or copyright notices.
+- Original licenses
+- Copyright notices
+- Attribution requirements
+- Third-party dependencies
+- Applicable usage restrictions
+
+Do not remove required legal notices from upstream projects.
 
 ---
 
-🥀 SAAN EXHAUSTED
+🖤 𝐒𝐀𝐀𝐍 𝐄𝐗𝐇𝐀𝐔𝐒𝐓𝐄𝐃
+
+<p align="center">𝐁𝐔𝐈𝐋𝐓 𝐃𝐈𝐅𝐅𝐄𝐑𝐄𝐍𝐓.
+𝐑𝐔𝐍𝐒 𝐃𝐈𝐅𝐅𝐄𝐑𝐄𝐍𝐓.
+𝐙𝐄𝐑𝐎 𝐂𝐇𝐈𝐋𝐋.
+
+🥀
+
+</p>---
 
 <p align="center">
-	<b>𝐒𝐈𝐀𝐌 𝐀𝐇𝐌𝐄𝐃 𝐒𝐀𝐀𝐍</b>
-</p><p align="center">
-	<b>SAAN GOATBOT V3 — UNHINGED</b>
-</p><p align="center">
-	<em>Built different. Runs different. No chill.</em>
+  <sub>© 2026 𝐒𝐀𝐀𝐍 𝐄𝐗𝐇𝐀𝐔𝐒𝐓𝐄𝐃 • 𝐒𝐈𝐀𝐌 𝐀𝐇𝐌𝐄𝐃 𝐒𝐀𝐀𝐍</sub>
 </p>
