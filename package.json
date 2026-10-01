@@ -1,0 +1,74 @@
+{
+	"name": "goat-bot-v2",
+	"version": "1.5.35",
+	"description": "A simple Bot chat messenger using personal account. Made by NTKhang.",
+	"main": "index.js",
+	"engines": {
+		"node": ">=22.0.0",
+		"npm": ">=10.0.0"
+	},
+	"overrides": {
+		"undici": "^6.21.0"
+	},
+	"dependencies": {
+		"axios": "^1.7.9",
+		"bcrypt": "^5.1.1",
+		"body-parser": "^1.20.3",
+		"btch-downloader": "^6.4.0",
+		"canvas": "^3.2.3",
+		"chalk": "^4.1.2",
+		"cheerio": "^1.0.0",
+		"connect-flash": "^0.1.1",
+		"cookie-parser": "^1.4.7",
+		"eta": "^2.2.0",
+		"express": "^4.21.2",
+		"express-fileupload": "^1.5.1",
+		"express-rate-limit": "^7.5.0",
+		"express-session": "^1.18.1",
+		"fs-extra": "^11.2.0",
+		"googleapis": "^144.0.0",
+		"gradient-string": "^3.0.0",
+		"graphql-query-to-json": "^1.0.1",
+		"lodash": "^4.17.21",
+		"mime-db": "^1.52.0",
+		"moment-timezone": "^0.5.46",
+		"mongoose": "^6.13.5",
+		"node-cron": "^3.0.3",
+		"nodemailer": "^6.9.16",
+		"ora": "^5.4.1",
+		"passport": "^0.6.0",
+		"passport-local": "^1.0.0",
+		"qrcode-reader": "^1.0.4",
+		"qs": "^6.13.1",
+		"request": "^2.88.2",
+		"searchitunes": "^2.5.4",
+		"sequelize": "^6.37.5",
+		"socket.io": "^4.8.1",
+		"sqlite3": "^5.1.7",
+		"totp-generator": "^0.0.14",
+		"@lazyneoaz/neokex-fca": "^0.0.3",
+		"yt-search": "^2.13.1"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"dev": "cross-env NODE_ENV=development node index.js",
+		"prod": "cross-env NODE_ENV=production node index.js",
+		"postinstall": "node -e \"try{require('bcrypt')}catch(e){console.log('rebuilding bcrypt...');require('child_process').execSync('npm rebuild bcrypt',{stdio:'inherit'})}\""
+	},
+	"author": "NTKhang",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ntkhang03/Goat-Bot-V2.git"
+	},
+	"keywords": [],
+	"bugs": {
+		"url": "https://github.com/ntkhang03/Goat-Bot-V2/issues"
+	},
+	"homepage": "https://github.com/ntkhang03/Goat-Bot-V2#readme",
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"eslint": "^8.57.1",
+		"prettier": "^3.4.2"
+	}
+}
