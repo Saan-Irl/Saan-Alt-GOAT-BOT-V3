@@ -7,7 +7,7 @@
 ╚══════════════════════════════════════╝
 
 <p align="center">
-  <img src="https://i.ibb.co/RQ28H2p/banner.png" alt="SAAN GOATBOT V3 Banner" width="100%">
+  <img src="https://i.imgur.com/bCuiBvy.jpeg" alt="SAAN GOATBOT V3 Banner" width="100%">
 </p><p align="center">
   <b>𝐀𝐞𝐬𝐭𝐡𝐞𝐭𝐢𝐜 𝐜𝐨𝐝𝐞 • 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐬𝐲𝐬𝐭𝐞𝐦 • 𝐙𝐞𝐫𝐨 𝐜𝐡𝐢𝐥𝐥</b>
 </p><p align="center">
